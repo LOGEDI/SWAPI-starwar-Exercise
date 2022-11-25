@@ -11,7 +11,7 @@ const Vehicles = () => {
     <div className="container">
         <hi className="text-light">Vehicles</hi>
         <div className="row row-cols-5 g-3 justify-content-center">
-         {store.vehicles.map(i=>{
+         {store.vehicles.map((i)=>{
             if (i.favorite==false){
                 favIcon = "far fa-heart";
             }
